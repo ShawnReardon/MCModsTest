@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "lessonformonday:blocks/braintex",
+    "particle": "lessonformonday:blocks/braintex"
+  }
+}

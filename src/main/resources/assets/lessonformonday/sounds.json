@@ -1,0 +1,11 @@
+{
+  "galaxy": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "lessonformonday:galaxies_-_protostar_01",
+        "stream": false
+      }
+    ]
+  }
+}

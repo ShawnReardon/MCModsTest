@@ -13,7 +13,7 @@ import net.minecraft.item.IItemTier;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.lessonformonday.procedures.RapidswordLivingEntityIsHitWithToolProcedure;
+import net.mcreator.lessonformonday.procedures.RapidswordGetAttackTargetProcedure;
 import net.mcreator.lessonformonday.procedures.RapidswordEntitySwingsItemProcedure;
 import net.mcreator.lessonformonday.LessonformondayModElements;
 
@@ -65,11 +65,8 @@ public class RapidswordItem extends LessonformondayModElements.ModElement {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
-					$_dependencies.put("x", x);
-					$_dependencies.put("y", y);
-					$_dependencies.put("z", z);
 					$_dependencies.put("world", world);
-					RapidswordLivingEntityIsHitWithToolProcedure.executeProcedure($_dependencies);
+					RapidswordGetAttackTargetProcedure.executeProcedure($_dependencies);
 				}
 				return retval;
 			}

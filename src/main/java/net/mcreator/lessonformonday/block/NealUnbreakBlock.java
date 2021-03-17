@@ -25,7 +25,7 @@ import java.util.Collections;
 
 @LessonformondayModElements.ModElement.Tag
 public class NealUnbreakBlock extends LessonformondayModElements.ModElement {
-	@ObjectHolder("lessonformonday:neal_unbreak")
+	@ObjectHolder("lessonformonday:neil_unbreak")
 	public static final Block block = null;
 	public NealUnbreakBlock(LessonformondayModElements instance) {
 		super(instance, 17);
@@ -40,7 +40,7 @@ public class NealUnbreakBlock extends LessonformondayModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.EARTH).sound(SoundType.STONE).hardnessAndResistance(-1, 3600000).lightValue(0));
-			setRegistryName("neal_unbreak");
+			setRegistryName("neil_unbreak");
 		}
 
 		@Override

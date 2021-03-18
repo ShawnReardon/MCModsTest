@@ -357,6 +357,61 @@
           }
         ]
       }
+    },
+    {
+      "name": "RobbieBreathesDiamonds",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "robbie_breathes_diamonds"
+    },
+    {
+      "name": "Mansionspawn",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mansionspawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RobbieBreathesDiamondsItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "robbie_breathes_diamonds_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -381,6 +436,7 @@
       "enchantment.lessonformonday.ewan": "Ewan",
       "item.lessonformonday.rapidsword": "Rapidsword",
       "item.lessonformonday.musictestr.desc": "GALAXIES",
+      "item.lessonformonday.robbie_breathes_diamonds": "Robbie Breathes Diamonds",
       "advancements.advancetest.descr": "Youre a Wizard",
       "item.lessonformonday.laser_item": "Laser Item",
       "block.lessonformonday.neil_unbreak": "Neil Unbreak"

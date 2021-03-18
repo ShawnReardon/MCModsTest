@@ -12,6 +12,7 @@ import net.mcreator.lessonformonday.LessonformondayModElements;
 import java.util.function.Function;
 import java.util.Map;
 import java.util.Comparator;
+import net.minecraft.entity.LivingEntity;
 
 @LessonformondayModElements.ModElement.Tag
 public class RapidswordGetAttackTargetProcedure extends LessonformondayModElements.ModElement {
@@ -86,6 +87,6 @@ public class RapidswordGetAttackTargetProcedure extends LessonformondayModElemen
 						(entity.world.rayTraceBlocks(new RayTraceContext(entity.getEyePosition(1f),
 								entity.getEyePosition(1f).add(entity.getLook(1f).x * 100, entity.getLook(1f).y * 100, entity.getLook(1f).z * 100),
 								RayTraceContext.BlockMode.OUTLINE, RayTraceContext.FluidMode.NONE, entity)).getPos().getZ())))
-				.findFirst().orElse(null)).attackEntityFrom(DamageSource.GENERIC, (float) 50);
+				.findFirst().orElse((AgeableEntity) entity)).attackEntityFrom(DamageSource.GENERIC, (float) 50);
 	}
 }

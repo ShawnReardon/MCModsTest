@@ -412,6 +412,82 @@
           }
         ]
       }
+    },
+    {
+      "name": "FlyingDiamondsBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flying_diamonds_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlyingDiamonds",
+      "type": "gun",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flying_diamonds"
+    },
+    {
+      "name": "ThrowableTNTBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "throwable_tnt_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ThrowableTNT",
+      "type": "gun",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "throwable_tnt"
     }
   ],
   "variable_elements": [],
@@ -429,9 +505,10 @@
     "en_us": {
       "item.lessonformonday.musictestr": "Musictestr",
       "advancements.advancetest.title": "Advancetest",
+      "item.lessonformonday.throwable_tnt": "Throwable TNT",
       "block.lessonformonday.the_brain": "The Brain",
-      "subtitles.galaxy": "",
       "item.lessonformonday.ranged_item": "Ranged Item",
+      "subtitles.galaxy": "",
       "item.lessonformonday.magic_wand": "Magic Wand",
       "enchantment.lessonformonday.ewan": "Ewan",
       "item.lessonformonday.rapidsword": "Rapidsword",
@@ -439,7 +516,8 @@
       "item.lessonformonday.robbie_breathes_diamonds": "Robbie Breathes Diamonds",
       "advancements.advancetest.descr": "Youre a Wizard",
       "item.lessonformonday.laser_item": "Laser Item",
-      "block.lessonformonday.neil_unbreak": "Neil Unbreak"
+      "block.lessonformonday.neil_unbreak": "Neil Unbreak",
+      "item.lessonformonday.flying_diamonds": "Flying Diamonds"
     }
   },
   "workspaceSettings": {

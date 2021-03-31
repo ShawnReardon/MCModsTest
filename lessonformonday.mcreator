@@ -44,22 +44,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
@@ -488,6 +472,144 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "throwable_tnt"
+    },
+    {
+      "name": "MagicMansion",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_mansion"
+    },
+    {
+      "name": "MansionRobStruct",
+      "type": "structure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mansion_rob_struct"
+    },
+    {
+      "name": "MagicMansionEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_mansion_entity_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BrainBiome",
+      "type": "biome",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brain_biome"
+    },
+    {
+      "name": "TurtleSpiderMan",
+      "type": "mob",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "turtle_spider_man"
+    },
+    {
+      "name": "LumenUpdateTick",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lumen_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lumen",
+      "type": "plant",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lumen"
+    },
+    {
+      "name": "TheBrainPlantDestroyed",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_brain_plant_destroyed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MondayEnchant",
+      "type": "enchantment",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "monday_enchant"
+    },
+    {
+      "name": "Proc",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "proc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -507,17 +629,23 @@
       "advancements.advancetest.title": "Advancetest",
       "item.lessonformonday.throwable_tnt": "Throwable TNT",
       "block.lessonformonday.the_brain": "The Brain",
-      "item.lessonformonday.ranged_item": "Ranged Item",
       "subtitles.galaxy": "",
+      "item.lessonformonday.ranged_item": "Ranged Item",
       "item.lessonformonday.magic_wand": "Magic Wand",
       "enchantment.lessonformonday.ewan": "Ewan",
+      "enchantment.lessonformonday.monday_enchant": "Monday Enchant",
       "item.lessonformonday.rapidsword": "Rapidsword",
       "item.lessonformonday.musictestr.desc": "GALAXIES",
+      "entity.lessonformonday.turtle_spider_man": "Turtle Spider Man",
       "item.lessonformonday.robbie_breathes_diamonds": "Robbie Breathes Diamonds",
       "advancements.advancetest.descr": "Youre a Wizard",
+      "item.lessonformonday.turtle_spider_man_spawn_egg": "Turtle Spider Man Spawn Egg",
       "item.lessonformonday.laser_item": "Laser Item",
+      "item.lessonformonday.magic_mansion": "Magic Mansion",
+      "biome.lessonformonday.brain_biome": "Brain Biome",
       "block.lessonformonday.neil_unbreak": "Neil Unbreak",
-      "item.lessonformonday.flying_diamonds": "Flying Diamonds"
+      "item.lessonformonday.flying_diamonds": "Flying Diamonds",
+      "block.lessonformonday.lumen": "Lumen"
     }
   },
   "workspaceSettings": {

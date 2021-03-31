@@ -3,15 +3,21 @@
   "advancements.advancetest.title": "Advancetest",
   "item.lessonformonday.throwable_tnt": "Throwable TNT",
   "block.lessonformonday.the_brain": "The Brain",
-  "item.lessonformonday.ranged_item": "Ranged Item",
   "subtitles.galaxy": "",
+  "item.lessonformonday.ranged_item": "Ranged Item",
   "item.lessonformonday.magic_wand": "Magic Wand",
   "enchantment.lessonformonday.ewan": "Ewan",
+  "enchantment.lessonformonday.monday_enchant": "Monday Enchant",
   "item.lessonformonday.rapidsword": "Rapidsword",
   "item.lessonformonday.musictestr.desc": "GALAXIES",
+  "entity.lessonformonday.turtle_spider_man": "Turtle Spider Man",
   "item.lessonformonday.robbie_breathes_diamonds": "Robbie Breathes Diamonds",
   "advancements.advancetest.descr": "Youre a Wizard",
+  "item.lessonformonday.turtle_spider_man_spawn_egg": "Turtle Spider Man Spawn Egg",
   "item.lessonformonday.laser_item": "Laser Item",
+  "item.lessonformonday.magic_mansion": "Magic Mansion",
+  "biome.lessonformonday.brain_biome": "Brain Biome",
   "block.lessonformonday.neil_unbreak": "Neil Unbreak",
-  "item.lessonformonday.flying_diamonds": "Flying Diamonds"
+  "item.lessonformonday.flying_diamonds": "Flying Diamonds",
+  "block.lessonformonday.lumen": "Lumen"
 }

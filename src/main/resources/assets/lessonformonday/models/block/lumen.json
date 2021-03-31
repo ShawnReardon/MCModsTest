@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "lessonformonday:blocks/lumen",
+    "particle": "lessonformonday:blocks/lumen"
+  }
+}

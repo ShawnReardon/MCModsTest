@@ -49,7 +49,7 @@
     },
     "tickRate": 10,
     "tickRandomly": false,
-    "isReplaceable": true,
+    "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""

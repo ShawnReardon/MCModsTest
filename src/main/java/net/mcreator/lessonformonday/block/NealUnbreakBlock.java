@@ -11,7 +11,6 @@ import net.minecraft.util.Direction;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
-import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
@@ -41,11 +40,6 @@ public class NealUnbreakBlock extends LessonformondayModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.EARTH).sound(SoundType.STONE).hardnessAndResistance(-1, 3600000).lightValue(0));
 			setRegistryName("neil_unbreak");
-		}
-
-		@Override
-		public boolean isReplaceable(BlockState state, BlockItemUseContext context) {
-			return true;
 		}
 
 		@Override
